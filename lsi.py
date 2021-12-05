@@ -59,6 +59,16 @@ for seminars in tagged_corpus:
     else:
         topic_map[seminars["tag"].lower()].append(seminars["id"])
 
+
+speaker_map = {}
+#  map where keys represent the speaker name in each document and its corresponding document
+#  example: {'bennett harrison': [1], 'urmila m. diwekar': [2], 'bill wescott': [3], 'mary jane': [4], 'jim boshears': [5], 'andrew c. barrett': [6], 'erik devereux': [7]}
+for seminars in tagged_corpus: 
+    if seminars["speaker"].lower() not in speaker_map:
+        speaker_map[seminars["speaker"].lower()] = [seminars["id"]]
+    else:
+        speaker_map[seminars["speaker"].lower()].append(seminars["id"])
+
 # remove words that appear only once
 # frequency = defaultdict(int)
 # for text in texts:
@@ -130,6 +140,7 @@ for seminars in untagged_corpus:
             topic_map[str(tagged_corpus[doc_position]["tag"]).lower()].append(seminars["id"])
         count += 1
 f.write('\n' + str(topic_map))
+f.write('\n' + str(speaker_map))
 
 ###############################################################################
 # In addition, we will be considering `cosine similarity <http://en.wikipedia.org/wiki/Cosine_similarity>`_
