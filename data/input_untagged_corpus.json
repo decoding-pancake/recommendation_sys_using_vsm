@@ -3,7 +3,7 @@
     	"topic": "Radioactive Heaven And Earth",
     	"description": "The Environmental and Health Costs of Nuclear Weapons Production and Testing and Nuclear Waste Disposal.",
     	"speaker" : "Arjun Makhijani",
-    	"tag": "Engineering",
+    	"tag": "Science",
     	"id" : "1",
     	"file_name": "cmu.andrew.org.heinz-1731_0"    
 	},
@@ -11,7 +11,7 @@
     	"topic": "On the Automated Differentiation of Computer Programs",
     	"description": "Automatic differentiation (AD) is a technique for augmenting computer programs with statements for the computation of derivatives. It exploits the fact that every program is a (potentially very long) sequence of elementary operations and employs the chain rule of derivative calculus to propagate these elementary derivatives. This technique is applicable to arbitrary computer programs containing branches, loops, and subroutine calls, and by exploiting the associativity of the derivative chain rule, derivatives can be computed potentially significantly less expensive (and more accurate as well) as with divided-difference computations, without tedious handcoding. We give an overview of the approach underlying the ADIFOR and ADIC automatic differentiation tools and their capabilities. ADIFOR, which has been developed in collaboration with Rice University, augments Fortran77 codes; ADIC augments ANSI-C codes. We present highlights of ADIFOR and ADIC applications and also of the SparsLinC library which is integrated with both ADIFOR and ADIC and enables one to transparently exploit sparsity in the computation of derivative matrices. Using SparsLinC, large sparse Jacobians can be computed efficiently, even without a-priori knowledge of the sparsity structure -- it is a byproduct of the derivative computation. It can also be shown that sparse computations underly the computation of gradients of functions with sparse Hessians and we present examples. Lastly, we briefly comment on the mathematical issues relating AD-generated derivatives to the 'do-what-I-mean' derivatives when AD is applied to iterative schemes, point out possibilities for parallelizing the derivative computation of serial codes by exploiting chain rule associativity, and point to directions of future research, for example with respect to generating adjoint-type derivative codes.",
     	"speaker" : "Christian Bischof",
-    	"tag": "Science",
+    	"tag": "Engineering",
     	"id" : "2",
     	"file_name" : "cmu.andrew.org.epp-961_0"
 	},
@@ -27,7 +27,7 @@
     	"topic": "Use of Electron Microscopy for Metal Speciation in Soil and Dust",
     	"description": "RJ Lee Group is a company that spun off from USX Research, and that is focused on scanning electron microscopy technology. They  have developed a revolutionary product, a bench-top SEM, that is capable of counting, sizing, and doing elemental analysis on particles in its field of view along with providing a micrograph image. The company also undertakes basic and applied research projects that involve SEM analysis. A significant portion of these projects are related to environmental issues, e.g., characterization of particles in stack emissions, identification of asbestos, characterization of mineral particles. Dr. Kennedy will be discussing a project performed by RJ Lee that focused on characterization of contaminants in soil and dust associated with a Superfund site.",
     	"speaker" : "DR. STEPHEN KENNEDY",
-    	"tag": "Engineering",
+    	"tag": "Science",
     	"id" : "7",
     	"file_name" : "cmu.andrew.org.epp-799_0"
 	},
@@ -43,7 +43,7 @@
     	"topic": "Environmental Integrity at the St. Johns Landfill: An Interdisciplinary Study",
     	"description": "Environmental Integrity",
     	"speaker" : "DR. WILLIAM FISH",
-    	"tag": "Engineering",
+    	"tag": "Science",
     	"id" : "9",
     	"file_name" : "cmu.andrew.org.epp-709_0"
 	},
