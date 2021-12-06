@@ -1,0 +1,46 @@
+1 65
+(0.39729768, Engineering, Science,36)
+(0.23177664, Science, Science,72)
+(0.1913841, Education, Science,61)
+(0.1578242, Engineering, Science,4)
+(0.15764733, Engineering, Science,50)
+(0.15139702, Architecture, Science,43)
+(0.106655456, Engineering, Science,110)
+(0.100977905, Science, Science,18)
+(0.09284267, General, Science,29)
+(0.092814565, Engineering, Science,20)
+
+Precision@10 = 2/10
+AP = 0.38
+
+2 106
+(0.27618054, Teaching, Teaching,107)
+(0.22431688, Teaching, Teaching,53)
+(0.17706317, Engineering, Teaching,24)
+(0.17184423, Education, Teaching,58)
+(0.1493537, Education, Teaching,83)
+(0.114658475, Career, Teaching,25)
+(0.102671005, Science, Teaching,1)
+(0.10120706, Engineering, Teaching,8)
+(0.09609369, Teaching, Teaching,108)
+(0.09501902, Education, Teaching,35)
+
+Precision@10 = 3/10
+AP = 0.78
+
+3 4
+(0.17050523, Education, Engineering,83)
+(0.1578242, Science, Engineering,65)
+(0.13878082, Engineering, Engineering,9)
+(0.123264596, Education, Engineering,61)
+(0.122445315, Engineering, Engineering,26)
+(0.11942771, Engineering, Engineering,36)
+(0.10847731, Arts and Music, Engineering,79)
+(0.102981284, Business, Engineering,99)
+(0.1028129, Engineering, Engineering,20)
+(0.090467714, Engineering, Engineering,6)
+
+Precision@10 = 1/2
+AP = 0.44
+
+MAP = (0.38+0.78+0.44)/3 = 0.53

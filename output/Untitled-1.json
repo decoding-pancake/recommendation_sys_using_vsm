@@ -1,0 +1,194 @@
+[
+    {
+        "topic": "Advanced Whole Brain Learning seminar",
+        "description": "You will learn a powerful process which facilitates higher brain functioning in a fun, relaxed, hands-on atmosphere. This intensive workshop combines 20 years of research and testing along with the finding of Albert Einstein and recent brain research.If you want to discipline your mind and embrace new ways of thinking and learning, this course is for you",
+        "speaker" : "Leonard Gierach",
+        "tag": "Science",
+        "id" : "",
+        "file_name" : "pgh.forsale-9143/0"
+    },
+    {
+        "topic": "EPP TALK: Household Demand for Garbage and Recycling Collection",
+        "description": "This paper estimates household reaction to the implemenation of a volume-based pricing program for the collecion of residential garbage.We gather original data on weight and volume of weekly garbage and recycling of 75 households in Charlottesville, Virgina, both before and after the implementation of a program which requires an eighty-cent sticker on each bag of garbage. This data set is the first of its kind. We estimate household demands for the collection of garbage and recyclable material, the effect on the density of household garbage, and the amount of illegal dumping conducted by housholds. We also employ a basic probit model to estimate the probability that a household chooses each of several methods available to reduce their garbage. In response to the implementation of this volume-based pricing program, we find that households (1) reduced the weight of their garbage by 14.0%, (2) reduced the volume of garbage by 37.0% and (3) increased the weight of their recyclable materials by 15.7%. We estimate that additional illegal -- or at least suspicious -- disposal accounts for 0.486 pounds per week per person in Charlottesville, or 32% of the total reduction in garbage observed at the curb",
+        "speaker" : "Professor Don Fullerton",
+        "tag": "General",
+        "id" : "",
+        "file_name" : "cmu.misc.environmental-health-and-safety-260/0"
+    },
+    {
+        "topic": "Interesting HCI seminar",
+        "description": "In the last five years or so, many economists and associated pundits have born much bad news about the effect of computers on productivity. I'll show you the data, and conclude that things probably are just as bad as they seem. Then we'll look for root causes and possible cures. The main problem is that computer applications are of little help for improving the efficiency of the routine mental work of the information economy, and have been improving too Slowly.  good news is that simple, cheap, empirical usability evaluation and redesign can turn the situation around. Fairly compelling evidence will be displayed.",
+        "speaker" : "Tom Landauer",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.edrc.ndim-124/0"
+    },
+    {
+        "topic": "Special ECE Seminar",
+        "description": "Recently, there has been a great deal of interest in the creation of low-order models to represent the behavior of linear interconnect circuits. Through approaches such as asymptotic waveform evaluation (AWE) and Pade' approximation, it is possible to efficiently compute a simple macromodel of a complicated interconnect. This macromodel can be combined with nonlinear driver and receiver models to accelerate the analysis of the circuit's responses. One problem with Pade' approximation is that it may generate unstable results. These instabilities arise because the macromodel actually represents an active, energy-producing network. It would be better for an interconnect model to be totally passive, never generating energy on its own. In this talk, we discuss the instability problem by appealing to certain classical techniques of passive circuit synthesis. It is shown that AWE is mathematically equivalent to the development of a ladder circuit that realizes the Pade' approximation in virtual hardware. For certain classes of circuits and certain pairs of input/output responses, the ladder realization consists entirely of positive-valued circuit elements; as a consequence, it is guaranteed to be passive and stable",
+        "speaker" : "Eric Bracken",
+        "tag": "Science",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3822/0"
+    },
+    {
+        "topic": "PSC/CS Seminar",
+        "description" : "A self-organizing neural network model for the synergetic development of afferent and lateral connections in cortical feature maps was simulated on the Pittsburgh Supercomputing Centers Cray TD. The model called LISSOM shows how the observed cortical structures (about 10mm in diameter, with 36,000 neuronal columns and 256 million connections) such as ocular dominance columns, orientation columns, and patterned lateral connectivity arise from the properties of visual input. The resulting self-organized structure remains in a dynamic and continuously-adapting equilibrium with the input and can account for many of the observed plasticity effects in the adult visual cortex. The model also suggests that the primary role of lateral connections is to remove redundancies in the cortical activity, resulting in a more efficient representation of visual information",
+        "speaker" : "Risto Miikkulainen",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3822/0"
+    },
+    {
+        "topic": "POP SEMINAR",
+        "description": "One  price  paid  for  using  a  typed  language  for  writing an interpreter is that it will typically have to encode  the  values of  the  interpreted  program explicitly into one universal type, Val. Since Val will be visible from the type of the interpreter (e.g., Prg  x  Val  ->  Val  for a simple one) programs derived from the interpreter by using, i.e., partial evaluation will  inherit  the universal  type  and perform repeated projections and injections. That is certainly not what we want. However, a study of a typical derived program shows  that  it  is not  possible  to improve much without further information. This is where the context of the program comes in. A  context  here is  a  description  of  the  input  --  in  the form of a grammer defining a subset of all possible Val values  --  and  a  similar description of the output. In  words,  the  context makes certain promises about the form of the input and the output. In the case of residual programs  from partial evaluation it is trivial to create good contexts",
+        "speaker" : "Morten Welinder",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3568/0"
+    },
+    {
+        "topic": "THEORY SEMINAR",
+        "description": "Computing transitive closure and reachability information in directed graphs is a fundamental graph problem with many applications. The fastest known algorithms run in $O(min(mn,n^{2.38})$ time, where $n$ is the number of nodes and $m$ the number of edges in the graph. It is often the case that the aim is to compute the size of the transitive closure and the number of nodes reachable from certain nodes rather than computing them explicitly. Examples of potential applications are database query optimization or optimizing multiplications of large real-valued matrices. We present an $O(m)$ time randomized algorithm that estimates the number of nodes reachable from every node and the size of the transitive closure. Another ramification of our estimation scheme is a $\tilde{O}(m)$ time algorithm for estimating sizes of neighborhoods in directed graphs with nonnegative weights. Our size-estimation algorithms are much faster than performing the respective explicit computations and improve significantly over previous estimation methods",
+        "speaker" : "Edith Cohen",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3553/0"
+    },
+    {
+        "topic": "APPLE COMPUTER TALK",
+        "description": "Computer will give a presentation on the Apple Core Technology group and the Advanced Technology Group. They will bring some of the latest Apple technologies in communications, telephony, multimedia, and speech. Rick and Kai-Fu invite interested grads and undergrads to attend this informal demonstration and discussion. Graduate students interested in potential job opportunities are particularly encouraged to attend",
+        "speaker" : "Kai-Fu Lee",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3499/0"
+    },
+    {
+        "topic": "CS Seminar 12/2",
+        "description": "The LabSpace project integrates emerging multiuser virtual environment technology with state of the art multimedia interfaces in order to support scientific collaboration. The resulting networked environment, composed of a persistent collection of objects and a flexible history mechanism, allows the creation of electronic virtual laboratories. These virtual laboratories will be networked locations where scientists will interact with analytical electron microscopes, high energy physics experiments and data, and, most importantly, each other. The LabSpace project will develop the tools to create these virtual laboratories and the scientists' interfaces, and will validate these integrated tools in two end-user testbeds",
+        "speaker" : "Rick Stevens",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3412/0"
+    },
+    {
+        "topic": "CS Seminar 12/2",
+        "description": "Modern shared-memory multiprocessors are inherently asynchronous: processes can be halted or delayed without warning by interrupts, pre-emption,  or  cache  misses. In  such  environments, it is desirable to design protocols that  are  wait-free:  any  process that continues to run will complete its work in a fixed number of steps, regardless of delays or failures by other processes. In the past  few  years,  considerable  progress  has  been  made understanding   wait-free   protocols   for   systems   in  which asynchronous processes communicate by reading and writing  shared variables. Nevertheless, relatively little is known about such protocols in systems in which processes communicate with  certain more powerful synchronization primitives such as test-and-set, or fetch-and-add. This question has some practical interest,  since many  modern  multiprocessor architectures provide these kinds of built-in primitives",
+        "speaker" : "Maurice Herlihy",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3406/0"
+    },
+    {
+        "topic": "Redesigning the Classroom: Teaching and Technology in Higher Education",
+        "description": "Not since the introduction of chalkboards in the 1800s has the classroom been so challenged in regard to its basic design and pedagogical setting. Neither overhead transparencies nor TV monitors provide the kind of dynamic, interactive capabilities seen on today's high-resolution monitors. Indeed, it is precisely the evolutionary symbiosis of powerful computers and good software that today provides the first real challenge to the traditional classroom setting. The presentation will discuss all aspects of educational computing as it is currently evolving: its history and context, issues of instructional design and evaluation, technical support and administrative advocacy, and the computational turn that is affecting every academic discipline. Concrete examples from These examples include the use of interactive multimedia, a hypertext syllabus to display and disseminate classroom materials, a class-specific electronic bulletin board, and the potential utilization of Tele-profs via network-based video mail",
+        "speaker" : "Robert Cavalier",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3265/0"
+    },
+    {
+        "topic": "PSC/CS Seminar",
+        "description": "Tools for Object-Oriented Programming on Massively Parallel Systems",
+        "speaker" : "Dennis Gannon",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3240/0"
+    },
+    {
+        "topic": "CS/PSC/PS seminar",
+        "description": "Steve McGeady is talking to people interested in software as it applies to multimedia, speech and handwriting recognition, video compression, databases for multimedia including indexing, browsing and retrieval techniques (even fuzzy logic scenarios), agent technology, new visualization techniques, group activity support, etc. If you are interested in talking to him, please contact Barbara Sandling as soon as possible, since he will only be available for a limited time",
+        "speaker" : "Steve McGeady",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3228/0"
+    },
+   {
+        "topic": "Tech Lecture",
+        "description": "The  speaker will describe his rather unexpected experiences as a mere technologist in the corridors of  power  in  Washington. By being  in  the  right place at the right time, he was selected as co-chair of the White House Information  Technology  Task  Force, which   was   tasked   during  the  early  days  of  the  Clinton Administration  to  recommend  a  new  computer  system  for  the Executive  Office  of  the  President. His experiences include bringing  the  Internet  to  the  White  House  and  establishing Internet   accounts   for   the   President  and  Vice  President (president,vice.president@whitehouse.gov), participating  on  the Vice  President's  National  Performance  Review  to  re-engineer government through information technology, almost  knocking  over the President with a laserprinter, and inspecting the fiber optic network on board Air Force",
+        "speaker" : "Professor Randy Katz",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3218/0"
+    },
+    {
+        "topic": "CS/PSC Seminar",
+        "description": "Future parallel computers must execute efficiently both hand-coded applications and also programs written in high-level programming languages. Today's machines limit programs to a single communication paradigm---message-passing or shared-memory---which results in uneven performance. To address this problem, we have developed the Tempest interface, which supports shared-memory, message-passing, and hybrid applications. Tempest enhances portability of parallel programs by allowing low-cost networks of workstations to provide the same abstractions (e.g., shared memory) as high-performance parallel machines. The Tempest interface consists of low-level communication and memory-system mechanisms. Policies, such as shared memory, are implemented in user-level software, which allows programmers and compilers to customize policies to an application's semantics and sharing patterns. Experiments show that custom cache coherency policies can produce upto an order-of-magnitude performance improvement. We have completed two implementations of the Tempest interface. Typhoon illustrates the performance of first-class hardware support for Tempest. This proposed hardware system implements Tempest using a fully-programmable, user-level processor in the network interface</sentence>. <sentence>Blizzard demonstrates Tempest's portability by implementing the interface in software running on stock hardware (a Thinking Machines CM-5). We are currently developing a third Tempest implementation by porting Blizzard to the Wisconsin COW (Cluster Of Workstations). This work is part of the Wisconsin Wind Tunnel project, co-led by Mark Hill, James Larus, and David Wood",
+        "speaker" : "David Wood",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-3208/0"
+    },
+    {
+        "topic": "A FREE OBJECT TECHNOLOGY TELECAST/SEMINAR",
+        "description": "To gain the competitive advantage in today's rapidly changing business environment, you need to respond quickly to the market opportunities. Through object technology you can provide the flexibility needed for this market. Objects enable firms to deliver proprietary software solutions rapidly as well as integrate the entire operation with a client/server architecture. Hewlett-Packard can offer you a clear path to object-based computing through products, programs, consulting, and solutions that are available today. LEARN FIRST HAND. Hewlett-Packard will broadcast through NTU (National Technology University) a special event focusing on object-oriented technology. This telebroadcast will feature key speakers from HP Laboratories as well as commercial examples of how an object technology is used in the telecommunications and financial industries",
+        "speaker" : "Joel S. Birnbaum",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2926/0"
+    },
+{
+        "topic": "Parallel Computing at the Swiss Scientific Computing Center (CSCS)",
+        "description": "We report about projects and activities in parallel computing at CSCS Section of Research and Development (SeRD). The Joint CSCS-ETH/NEC High Performance Computing Software Development Center is a collaboration with NEC Corporation comprising ten full-time scientists working in a user- and application-driven way on tools for parallelization support, performance monitoring, and debugging, as well as applications and algorithms for distributed memory parallel processor systems (DMPPs). Another project,  A Tool Environment for Parallel Programming of Distributed Systems} is funded by the Swiss National Science Foundation in the framework of the Swiss Priority Program Informatics (SPPIF). It's long-term research goal is to build a problem solving environment for convenient programming of DMPPs.The environment is founded on a specification-level formalism tailored to the needs of computational scientists and successfully addresses the issues of performance, portability, extensibility and software reuse.CSCS (SSIP), for the first time carried through in the summer of 1993, transforms the research and development results into the educational sector. CSCS' Parallel Computer Systems and Education Laboratory (ParEdLab) provides a framework for education and training on novel computer architectures and software systems, knowledge acquisition in the field of high-performance computing, and consultation of academic institutions and industrial and commercial companies",
+        "speaker" : "Karsten M. Decker",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2847/0"
+    },
+{
+        "topic": "NASA's Artificial Intelligence Program",
+        "description": "The goal of my talk is to help the CMU community understand what it takes to keep an R&D program alive. The case study is NASA's AI Program. It is 10 years old and has grown from $2M/yr to $18M/yr, but the road has been rocky, and the current outlook is anything but Clear. My job is two-fold: to educate the Washington bureaucracy as to what can and should be done so that they will place good and useful constraints on the program, and to propagate those constraints to those who carry out the program and help them understand what the constraints are and why they were made. What are those constraints. How have they changed over the years? What does the near future look Like? What roles have university researchers played in the program, and what roles might they play in the future",
+        "speaker" : "Melvin Montemerlo",
+        "tag": "Science",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2801/0"
+    },
+{
+        "topic": "HCI Seminar",
+        "description": "Programmable applications are software systems that combine the learnability and accessibility of direct manipulation interfaces with the expressive range of domain-enriched programming environments. While -- broadly speaking -- the notions of direct manipulation and programming have historically been viewed as existing in opposition, programmable applications seek to blend language and direct manipulation constructs in mutually supportive ways. This talk will describe some of the issues that arise in the design of programmable applications, and will present two prototype applications (based on the Scheme programming language) for the domains of graphic design and computational physics",
+        "speaker" : "Mike Eisenberg",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2753/0"
+    },
+{
+        "topic": "Improved Statistical Language Models from Syntactic Parsing",
+        "description": "A statistical language model assigns a probability to every sequence of words such that common sequences in the language (I have a headache) have high probability and uncommon ones (Headache a have I) have low. Such models are of most obvious use in speech recognition, but they have many other uses as well. The current gold standard in statistical language models is the trigram model, which estimates the probability of each successive word using statistics gathered on the probability of the word given the last two words. This is very dumb, but remarkably successful. We hope to create better models using more standard NLU techniques. We hope to model the language by first parsing the sentence, then collecting statistics based upon the parse (not just the last few words). In this talk we concentrate on the first of these steps and look in particular at probabilistic context-free grammar learning. Our scheme starts with a restricted form of context-free grammar such that only a finite number of rules apply to any given sentence. Starting with these rules, we then remove excess rules using the inside-outside algorithm.We concentrate on two interesting modifications of this scheme,n. The first we create several different grammars for the language using different subsets of our training data and then merge them.Interestingly, this significantly improves the quality of the learned grammar. In the second we learn a ``pseudo-context-sensitive'' grammar by collecting extra statistics on rule application (pseudo because the resulting formalism could be put back into context-free form by multiplying out the non-terminals of the language). This too leads to significant improvements",
+        "speaker" : "Eugene Charniak",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2669/0"
+    },
+{
+        "topic": "HCI Seminar",
+        "description": "In the last five years or so, many economists and associated pundits have born much bad news about the effect of computers on productivity</sentence>. <sentence>I'll show you the data, and conclude that things probably are just as bad as they seem.Then we'll look for root causes and possible cures. The main problem is that computer applications are of little help for improving the efficiency of the routine mental work of the information economy, and have been improving too slowly. The good news is that simple, cheap, empirical usability evaluation and redesign can turn the situation around. Fairly compelling evidence will be displayed",
+        "speaker" : "Tom Landaue",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2643/0"
+    },
+{
+        "topic": "High Performance Fortran",
+        "description": "Thinking Machines Corporation",
+        "speaker" : "Guy L. Steele, Jr",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2641/0"
+    },
+{
+        "topic": "AI Seminar",
+        "description": "Explaining about the Recent Results in the AI experiments",
+        "speaker" : "Dan Weld",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.scs-2580/0"
+    },
+{
+        "topic": "Seminar",
+        "description": "While the general class of most scheduling problems is NP-hard in worst-case complexity (i.e., a general solution is doomed to poor performance), in practice, for specific distributions of problems and constraints, domain-specific solutions have been shown to perform in much better than exponential time. However, discovering these search strategies is a knowledge-intensive time-consuming process which requires a deep understanding of the domain. The goal of this work is to develop techniques to allow for automated learning of effective domain-specific schedulers from a general scheduler with a flexible control strategy. In this approach, techniques from machine learning and statistics are used to automaticaly find control settings to for the scheduler which allow it to improve performance on the domain-specific problems of interest. These techniques have been applied to learning control settings for a scheduler to schedule operations for the 26-meter subnet of the Deep Space Network (DSN), operated by JPL and used to communicate with orbiting spacecraft and satellites. For DSN projected schedules, the machine learning techniques were able to decrease the amount of CPU time required to produce a schedule by 50% for problems solvable by the scheduler. In addition, the machine learning allowed the scheduler to solve 15% more of the problems within computational resource limitations. This is joint work with Jonathan Gratch and Gerald DeJong of the University of Illinois",
+        "speaker" : "Steve Chien",
+        "tag": "Engineering",
+        "id" : "",
+        "file_name" : "cmu.cs.robotics-766/0"
+    }
+]

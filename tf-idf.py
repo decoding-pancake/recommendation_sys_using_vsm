@@ -11,27 +11,13 @@ This tutorial introduces Documents, Corpora, Vectors and Models: the basic conce
 import json
 # read corpus file
 #  tagged map
-tagged_corpus = open('data/input_tagged_corpus.json', 'r')
+tagged_corpus = open('data/input_tagged_corpus_id.json', 'r')
 tagged_corpus = json.load(tagged_corpus)
-count = 1
-for seminars in tagged_corpus: 
-    seminars["id"] = count
-    count += 1
-
-with open('data/input_tagged_corpus_id.json', 'w') as outfile:
-    json.dump(tagged_corpus, outfile)
 
 #  untagged map
 
-untagged_corpus = open('data/input_untagged_corpus.json', 'r')
+untagged_corpus = open('data/input_untagged_corpus_id.json', 'r')
 untagged_corpus = json.load(untagged_corpus)
-for seminars in untagged_corpus: 
-    seminars["id"] = count
-    count += 1
-
-with open('data/input_untagged_corpus_id.json', 'w') as outfile:
-    json.dump(untagged_corpus, outfile)
-
 
 # create topic map
 
@@ -73,9 +59,9 @@ topic_map = {}
 #  {'engineering': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '11', '12', '13', '14', '15', '17', '19'], 'teaching': ['10', '16', '18', '20']}
 for seminars in tagged_corpus: 
     if seminars["tag"].lower() not in topic_map:
-        topic_map[seminars["tag"].lower()] = [seminars["id"]]
-    else:
-        topic_map[seminars["tag"].lower()].append(seminars["id"])
+        topic_map[seminars["tag"].lower()] = []
+    # else:
+    #     topic_map[seminars["tag"].lower()].append(seminars["id"])
 
 
 speaker_map = {}
@@ -291,6 +277,51 @@ for seminars in untagged_corpus:
         count += 1
 f.write('\n' + str(topic_map))
 f.write('\n' + str(speaker_map))
+
+
+
+# Evaluation metrics
+#  Using average precision and mean average precision over 3 users.
+
+user_preference = [
+    {
+        'user_id' : 1,
+        'seminars_attended' : 65
+    },
+    {
+        'user_id' : 2,
+        'seminars_attended' : 106
+    },
+    {
+        'user_id' : 3,
+        'seminars_attended' : 4
+    }
+]
+
+#  run the model to find top k = 3 recommendations
+f = open("output/top_k_tf_idf.txt", "w")
+# merged_corpus = tagged_corpus + untagged_corpus
+
+for users in user_preference:
+    doc = ''
+    for seminar in tagged_corpus:
+        if seminar['id'] == users['seminars_attended']:
+            doc = seminar['description']
+            seminars = seminar
+    vec_bow = dictionary.doc2bow(doc.lower().split())
+    index = similarities.SparseMatrixSimilarity(tfidf[bow_corpus], num_features=300)
+    sims = index[tfidf[vec_bow]]
+    sims = sorted(enumerate(sims), key=lambda item: -item[1])
+    count = 0
+    f.write(str(users['user_id']) + ' ' + str(users['seminars_attended'])  + '\n')
+    for doc_position, doc_score in sims:
+        if count < 11 and tagged_corpus[doc_position]["id"] != users['seminars_attended']:
+            f.write('(' + str(doc_score) + ', ' + str(tagged_corpus[doc_position]["tag"]) + ', ' + str(seminars["tag"]) + ',' + str(tagged_corpus[doc_position]["id"]) + ')')
+            f.write("\n")
+            # topic_map[str(tagged_corpus[doc_position]["tag"]).lower()].append(seminars["id"])
+        count += 1
+# f.write('\n' + str(topic_map))
+# f.write('\n' + str(speaker_map))
 
 
 ###############################################################################
